@@ -1,0 +1,4 @@
+/videowithkafka/
+
+# Ignore all .log files in the root directory
+*logs/

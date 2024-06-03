@@ -1,0 +1,1 @@
+from model.kafka_producer import KafkaVideoProducer
