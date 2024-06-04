@@ -1,6 +1,8 @@
 import cv2
 import os
 
+
+
 class VideoDisplay:
     
     def __init__(self, storing_dir="Frames"):

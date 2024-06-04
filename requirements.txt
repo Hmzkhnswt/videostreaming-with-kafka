@@ -2,3 +2,4 @@ confluent-kafka
 opencv-python
 vidgear
 yt_dlp
+dotenv
