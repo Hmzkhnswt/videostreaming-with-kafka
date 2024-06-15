@@ -1,7 +1,10 @@
 import cv2
 import os
+from vidgear.gears import CamGear
+from dotenv import load_dotenv
 
-
+load_dotenv(dotenv_path = '.env.dev')
+youtube_url = os.getenv('YOUTUBE_URL')
 
 class VideoDisplay:
     
