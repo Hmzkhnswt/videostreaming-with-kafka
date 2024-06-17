@@ -49,5 +49,6 @@ while True:
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 
-stream.stop()
-cv2.destroyAllWindows()
+if __name__ == "__main__":
+    stream.stop()
+    cv2.destroyAllWindows()
